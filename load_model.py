@@ -7,7 +7,6 @@ model = joblib.load('K-Nearest Neighborsmodel.pkl')
 #load dataset
 
 test_data = pd.read_csv("mobile_price_range_data.csv")
-
 #Assuming the last column is the target
 
 X_test = test_data.iloc[:, :-1]
